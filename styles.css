@@ -368,6 +368,15 @@ h3 {
   max-width: 720px;
 }
 
+.menu-gallery + .instagram > div {
+  max-width: 980px;
+}
+
+.menu-gallery + .instagram h2 {
+  font-size: clamp(28px, 3.3vw, 42px);
+  white-space: nowrap;
+}
+
 .reserve .section-heading,
 .reserve .cta-grid {
   max-width: 1120px;
