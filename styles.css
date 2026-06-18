@@ -466,10 +466,13 @@ h3 {
 
 .menu-hero {
   width: min(1180px, calc(100% - 32px));
-  grid-template-columns: minmax(0, 1.05fr) minmax(280px, .72fr);
+  display: block;
   margin: 0 auto;
-  padding: clamp(56px, 8vw, 92px) 0 clamp(28px, 4vw, 44px);
-  gap: clamp(26px, 5vw, 56px);
+  padding: clamp(58px, 8vw, 96px) 0 clamp(30px, 5vw, 54px);
+}
+
+.menu-hero > div {
+  max-width: 780px;
 }
 
 .menu-hero + .menu-gallery {
