@@ -464,6 +464,14 @@ h3 {
   border-radius: 50%;
 }
 
+.menu-hero {
+  padding-bottom: clamp(26px, 4vw, 46px);
+}
+
+.menu-hero + .menu-gallery {
+  padding-top: clamp(22px, 4vw, 42px);
+}
+
 .menu-gallery {
   max-width: 1180px;
   margin: 0 auto;
